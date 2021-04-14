@@ -1,12 +1,13 @@
-# Ruby on Rails App: Blog Application.
+# Ruby on Rails []Building With Active Record: Micro Reddit Application.
 
 > [Collaborative project]
 
-This is the very first project I would build with Ruby on Rails. The main goal here is to make it up and running - and its to take about 14hours to carry out this project. Full task description:  https://www.theodinproject.com/courses/ruby-on-rails/lessons/ruby-on-rails-ruby-on-rails . and  [Find project specifications here](https://guides.rubyonrails.org/getting_started.html)
+This is the very first project I would build with Ruby on Rails. The main goal here is to make Let’s build [Reddit](https://www.reddit.com/). Well, maybe a very junior version of it called micro-reddit. In this project, you’ll build the data structures necessary to support link submissions and commenting. We won’t build a front end for it because we don’t need to… you can use the Rails console to play around with models without the overhead of making HTTP requests and involving controllers or views and  [Find project specifications here](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/building-with-active-record-ruby-on-rails)
 
 ## Built With
 
 - Ruby
+- Ruby on Rails
 - webpack
 - Heroku
 - Sqlite
@@ -23,14 +24,14 @@ This is the very first project I would build with Ruby on Rails. The main goal h
 - Rubocop style guide
 
 ## Set up
-* Open your terminal and locate the folder you want to clone the repository.
+* Open your terminal and locate the folder you want to clone the repository and follow the steps below to install
 
 ## Install
 
 Run the following command into your terminal:
 
 ```console
-git clone https://github.com/errea/First_Ruby_on_Rails_App.git
+git clone https://github.com/errea/Micro-Reddit-Rail-App.git
 
 gem bundle install --without production
 ```
@@ -61,7 +62,7 @@ gem bundle install --without production
     └──test
 
 ## Deployment
-1) Git clone this repo and cd the to the `Blog app` directory.
+1) Git clone this repo and cd the to the `Micro reddit` directory.
 2) Run `rails server` in command line to open the application server in your browser via http://localhost:3000 or something similar
 3) Run `heroku start`.
 4) heroku run
@@ -70,7 +71,7 @@ gem bundle install --without production
 7) heroku run console
 
 ## Live Preview
-1) Git clone this repo and cd the to the `Blog app` directory.
+1) Git clone this repo and cd the to the `micro reddit` directory.
 2) Open the link for live preview `https://first-app-rails-blog.herokuapp.com/`
 
 ## Authors
@@ -85,7 +86,7 @@ gem bundle install --without production
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/errea/First_Ruby_on_Rails_App/issues).
+Feel free to check the [issues page](https://github.com/errea/Micro-Reddit-Rail-App/issues).
 
 ## Show your support
 
