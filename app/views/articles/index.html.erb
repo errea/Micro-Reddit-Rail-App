@@ -1,13 +1,12 @@
 <h1>Hello, Micro Reddit!</h1>
+Our blog has <%= Article.public_count %> articles and counting!
+
 <ul>
 <% @articles.each do |article| %>
-<% unless article.archived? %>
-<li>
+    <li>
     <%= link_to article.title, article %>
-</li>
-<% end %>
+    </li>
 <% end %>
 </ul>
 
 <%= link_to "New Article", new_article_path %>
-    
