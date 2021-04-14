@@ -70,10 +70,6 @@ gem bundle install --without production
 6) git push heroku main
 7) heroku run console
 
-## Live Preview
-1) Git clone this repo and cd the to the `micro reddit` directory.
-2) Open the link for live preview `https://first-app-rails-blog.herokuapp.com/`
-
 ## Authors
 
 👤 **Eri**
